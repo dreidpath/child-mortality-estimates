@@ -47,3 +47,12 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Ignore temporary files
+**/tmp.*
+
+# Ignore downloaded, unprocessed data files
+/data/
+
+# Ignore html files generated to check the markdown.
+**/*.html
